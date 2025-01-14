@@ -20,6 +20,11 @@ git status
 git log
 
 git checkout <number>
+
+git checkout <name>
+
+# switch from master to main
+git branch -M main
 ```
 
 <!-- HEAD -->
