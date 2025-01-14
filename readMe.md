@@ -30,3 +30,13 @@ git branch -M main
 <!-- HEAD -->
 
 git heads is used to point to the current file
+
+<!-- Branches -->
+
+```sh
+git branch <branchname>  # for creating a new branch
+
+git checkout -b <branchname> # for creating a new branch and checkout to that branch
+
+git branch new-branch source-branch # for creating a branch in the source branch
+```
